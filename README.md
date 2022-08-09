@@ -5,6 +5,6 @@ This is a personal portfolio.
 I have learned the following:
  
  1. Javascript
- 2. Repl.it
- 3.ReadlineSync
- 4.Github
+ 1. Repl.it
+ 1.ReadlineSync
+ 1.Github
