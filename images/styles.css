@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Source+Sans+Pro:ital,wght@0,300;1,200&display=swap');
 
+:root {
+    --primary-color:#9333ea
+}
 body{
 
 font-family: 'Source Sans Pro', sans-serif;
-color: blue;
 }
 
 .container-fluid{
@@ -13,4 +15,19 @@ color: blue;
 .container{
     max-width: 600px;
     margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+ background-color: var(--primary-color);
+ border-radius: 0.5rem;
+ color: white;
+}
+
+.secondary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
