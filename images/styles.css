@@ -8,6 +8,10 @@ body{
 font-family: 'Source Sans Pro', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
+
 .container-fluid{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -27,7 +31,16 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 
 .secondary-link{
-    background-color: var(--primary-color);
+    color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
 }
