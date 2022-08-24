@@ -8,6 +8,7 @@
 body{
 
 font-family: 'Source Sans Pro', sans-serif;
+margin: 0px;
 }
 
 hr{
@@ -77,6 +78,7 @@ padding: 2rem;
 .hero .hero-heading{
     color: var(--dark-grey);
     padding: 1rem;
+    text-align: center;
 }
 
 .section{
@@ -90,3 +92,20 @@ padding: 2rem;
 .ow{
     background-color:var(--off-white);
 }
+
+.footer{
+ background-color: var(--primary-color);
+ padding: 2rem 1rem;
+ color: white;
+ text-align: center;
+}
+
+.footer .link{ 
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
