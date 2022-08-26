@@ -22,6 +22,7 @@ hr{
 .container{
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 .link{
     text-decoration: none;
@@ -98,6 +99,16 @@ padding: 2rem;
  padding: 2rem 1rem;
  color: white;
  text-align: center;
+}
+.neogcamp-projects {
+   margin: 1rem;
+   padding: 1rem;
+   background-color: #f9a8265b;
+   border-radius: 10px;
+  }
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer .link{ 
